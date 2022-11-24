@@ -1,0 +1,19 @@
+<?php 
+namespace App\Views;
+
+use App\Views\View;
+
+class DefaultView extends View {
+	
+	/**
+	 * Affiche une page sans contenu.
+	 *
+	 * Le modèle passé en paramètre est une instance de la classe 'Model'.
+	 *
+	 * @see View::displayBody()
+	 */
+	protected function displayBody($model) { }
+
+}
+?>
+
